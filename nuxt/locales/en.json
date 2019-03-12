@@ -1,0 +1,92 @@
+{
+  "links": {
+    "home": "Home",
+    "about": "About",
+    "english": "EN",
+    "vietnamese": "VI"
+  },
+  "navbar": {
+    "wedding": {
+      "type": "Wedding",
+      "service": "Wedding Service",
+      "service_content": "Event center Argon is designed in the style: luxurious, modern, delicate.",
+      "outside_service": "outside wedding party",
+      "outside_service_content": "Come to us, Wedding reception in a spacious space, blending with nature is gradually becoming a popular trend for many active young people."
+    },
+    "event": {
+      "type": "Event",
+      "workshop": "friendship workshop",
+      "workshop_content": "At Argon, all events of every company and organization will be well prepared and formal.",
+      "customer_gratitude": "Customer Gratitude",
+      "customer_gratitude_content": "We believe that the party organization, gratitude ceremony for customers not only shows the deep concern as well as thanks to the senior officials of state agencies, business owners to you. dear customers, big business partners, product suppliers for your business.",
+      "birthday": "Birthday party",
+      "birthday_content": "For each person, birthdays are an important occasion. But not everyone knows how to organize a meaningful birthday.",
+      "music_fashion": "Music Event, Fashion",
+      "music_fashion_content": "A lot of famous singers and celebrities chose to perform at the stage of Dong Drum like Uyen Linh, Trung Quan Idol, Sweet Band ...",
+      "outside_catering": "OUTSIDE - CATERING Service",
+      "outside_catering_content": "Argon received the trust of partners like Vingroup, Nissan and Japanese partners such as Denso, Nitori ..."
+    },
+    "gift": {
+      "type": "Gift"
+    },
+    "menu": {
+      "type": "Menu"
+    },
+    "news": {
+      "type": "News"
+    },
+    "order_now": {
+      "type": "Order Now"
+    },
+    "introduction": "This is an introduction in English."
+  },
+  "footer": {
+    "thank": "Thank you for always supporting us!",
+    "contact": "Please contact us when necessary through social network channels.",
+    "about": "About Us",
+    "blog": "Blog",
+    "license": "license 9669"
+  },
+  "home": {
+    "slot": "GENERAL INTRODUCTION",
+    "hero": {
+      "rate": "Star us on",
+      "call": "call me:",
+      "tabs_section": {
+        "title": "About the company and service",
+        "us": "About us",
+        "us_description": "Argon Co., Ltd. owns a chain of leading wedding, event and conference centers with luxurious, sophisticated architecture, class standards and the most professional quality service in Hanoi. Ensuring servicing from 100 guests to 1500 guests, Argon centers are suitable for organizing a variety of events. Argon system offers you convenient services including: Wedding Party Service, Conference Service - Workshop, Outside Catering Banquet Service, Birthday Party Service, Wedding Planner Service.",
+        "history": "Historical thickness of service expansion",
+        "history_description": "With the first establishment established in 1975, Argon now marks with 10 event centers, weddings located in prime locations in the city center. The future we continue to expand into cities across the country like Ho Chi Minh or new places of interest that fit many different market needs of guests. We always put prestige and responsibility first. With after-sales services for regular customers, we have more special offers."
+      }
+    },
+    "carousel": {
+      "slide1": "Brilliant Outdoor Wedding Party!",
+      "slide2": "Dramatic stage storing hundreds of years of memories!",
+      "slide3": "A strange birthday party!",
+      "slide4": "Professional event organization!"
+    },
+    "download_section": {
+      "gift": {
+        "text1": "Moreover",
+        "text2": "Book a party today to receive the offer",
+        "text3": "20%",
+        "text4": "on the occasion of the holiday",
+        "text5": "April 30 and May 1",
+        "text6": "From March 8 to April 1, 2019, you only need to deposit a party with the number of over 100 guests at Argon Cau Giay, in addition to the preferential 20%, customers will be given 01 set of high-class Minh Long ceramic dishes."
+      }
+    }
+  },
+  "wedding_service": {
+    "title": "Event center Argon is designed in the style: luxurious, modern, sophisticated combined with the space of banquet rooms, conference rooms - diverse workshops, serving from 100 guests to 1500 guests, suitable for many different types of events, class standards and professional service quality.",
+    "number": "number",
+    "people": "people",
+    "status": "status",
+    "free": "not yet booked",
+    "booking": "booking"
+  },
+  "about": {
+    "title": "About",
+    "introduction": "This page is made to give you more informations."
+  }
+}

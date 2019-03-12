@@ -1,0 +1,40 @@
+{
+  "name": "vue-argon-design-system-nuxt",
+  "version": "1.0.0",
+  "description": "Vue Argon Design System for Nuxt",
+  "author": "Quang Hung",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^3.0.0-beta.12",
+    "bootstrap": "~4.2.1",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "cross-env": "^5.2.0",
+    "flatpickr": "^4.5.2",
+    "nouislider": "^12.1.0",
+    "nuxt": "^2.3.4",
+    "vue-flatpickr-component": "^8.1.1",
+    "vue-i18n": "^8.9.0",
+    "vue-lazyload": "^1.2.6",
+    "vue2-transitions": "^0.2.3",
+    "vuejs-paginate": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^5.0.1",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.9",
+    "prettier": "1.14.3",
+    "sass-loader": "^7.1.0"
+  }
+}

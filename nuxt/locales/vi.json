@@ -1,0 +1,92 @@
+{
+  "links": {
+    "home": "Home",
+    "about": "About",
+    "english": "EN",
+    "vietnamese": "VI"
+  },
+  "navbar": {
+    "wedding": {
+      "type": "Tiệc Cưới",
+      "service": "Dịch Vụ Tiệc Cưới",
+      "service_content": "Trung tâm tổ chức sự kiện Argon được thiết kế theo các phong cách: sang trọng, hiện đại, tinh tế.",
+      "outside_service": "Tiệc Cưới Ngoài Trời",
+      "outside_service_content": "Đến với chúng tôi, Tổ chức tiệc cưới trong không gian khoáng đạt, hòa cùng thiên nhiên đang dần trở thành một xu hướng thịnh hành của nhiều người trẻ năng động."
+    },
+    "event": {
+      "type": "Sự Kiện",
+      "workshop": "Hội Thảo - Hữu Nghị",
+      "workshop_content": "Tại Argon, tất cả các sự kiện của mọi công ty và tổ chức sẽ được chuẩn bị thật chu đáo và trang trọng.",
+      "customer_gratitude": "Tri Ân Khách Hàng",
+      "customer_gratitude_content": "Chúng tôi tin rằng, hoạt động tổ chức tiệc, lễ tri ân cho quý khách hàng không chỉ thể hiện sự quan tâm sâu sắc cũng như thay lời cảm ơn của cán bộ cao cấp cơ quan nhà nước, các chủ doanh nghiệp tới quý khách hàng thân thiết, đối tác làm ăn lớn, các nhà cung cấp sản phẩm cho doanh nghiệp quý khách.",
+      "birthday": "Tiệc Sinh Nhật",
+      "birthday_content": "Với mỗi người, sinh nhật là dịp thật quan trọng. Nhưng không phải ai cũng biết cách để tổ chức một lễ sinh nhật có ý nghĩa.",
+      "music_fashion": "Sự Kiện Ca Nhạc, Thời Trang",
+      "music_fashion_content": "Hàng loạt ca sĩ tên tuổi, người nổi tiếng đã chọn biểu diễn tại sân khấu của Trống Đồng như Uyên Linh, Trung Quân Idol, Ngọt Band…",
+      "outside_catering": "Dịch Vụ OUTSIDE - CATERING",
+      "outside_catering_content": "Argon nhận được sự tin yêu của các đối tác như tập đoàn Vingroup, Nissan và các đối tác Nhật Bản như Denso, Nitori..."
+    },
+    "gift": {
+      "type": "Ưu đãi"
+    },
+    "menu": {
+      "type": "Thực Đơn"
+    },
+    "news": {
+      "type": "Tin Tức"
+    },
+    "order_now": {
+      "type": "Đặt Tiệc Ngay"
+    },
+    "introduction": "This is an introduction in English."
+  },
+  "footer": {
+    "thank": "Cảm ơn các bạn luôn hỗ trợ chúng tôi!",
+    "contact": "Hãy liên hệ với chúng tôi khi nào cần thiết qua các kênh mạng xã hội.",
+    "about": "Về chúng tôi",
+    "blog": "Blog",
+    "license": "Giấy phép hoạt động số 9669"
+  },
+  "home": {
+    "slot": "GIỚI THIỆU CHUNG",
+    "hero": {
+      "rate": "Hãy like các bài viết trên",
+      "call": "hãy gọi cho tôi:",
+      "tabs_section": {
+        "title": "Đôi nét về công ty và dịch vụ",
+        "us": "Về chúng tôi",
+        "us_description": "Công ty TNHH Argon sở hữu chuỗi trung tâm tiệc cưới, sự kiện, hội nghị hàng đầu với lối kiến trúc sang trọng, tinh tế, những tiêu chuẩn đẳng cấp cùng chất lượng dịch vụ chuyên nghiệp bậc nhất Hà Nội. Đảm bảo khả năng phục vụ từ 100 khách đến 1500 khách, các trung tâm của Argon phù hợp với việc tổ chức nhiều loại sự kiện đa dạng. Hệ thống Argon cung cấp cho bạn những dịch vụ tiện ích bao gồm: Dịch vụ Tiệc Cưới, Dịch vụ Hội Nghị - Hội Thảo, Dịch vụ tiệc Outside Catering, Dịch vụ tiệc Sinh Nhật, Dịch vụ Wedding Planner.",
+        "history": "Bề dày lịch sử khả năng mở rộng dịch vụ",
+        "history_description": "Với cơ sở đầu tiên thành lập năm 1975, tới nay, Argon ghi dấu với 10 trung tâm tổ chức sự kiện, tiệc cưới tọa lạc tại những vị trí đắc địa trong trung tâm thành phố. Tương lai chúng tôi tiếp tục mở rộng về thành phố trên cả nước như Hồ Chí Minh hay những địa điểm thắng cảnh mới phù hợp nhiều nhu cầu thị yếu khác nhau của các vị khách. Chúng tôi luôn luôn đặt uy tín trách nhiệm lên hàng đầu. Với các dịch vụ hậu mãi với những khách hàng thường xuyên, chúng tôi có những ưu đãi đặc biệt hơn nữa."
+      }
+    },
+    "carousel": {
+      "slide1": "Tiệc Cưới Ngoài Trời Rực Rỡ!",
+      "slide2": "Sân khấu hoàng tráng lưu trữ kỉ niệm trăm năm!",
+      "slide3": "Tiệc sinh nhật khác lạ!",
+      "slide4": "Tổ chức sự kiện chuyên nghiệp!"
+    },
+    "download_section": {
+      "gift": {
+        "text1": "Hơn thế nữa",
+        "text2": "Hãy đặt tiệc ngay hôm nay để nhận được ưu đãi",
+        "text3": "20%",
+        "text4": "nhân ngày dịp lễ ",
+        "text5": "30/4 và 1/5",
+        "text6": "Từ 8/3 đến 1/4/2019, chỉ cần đặt cọc tiệc với số lượng trên 100 khách tại Argon Cầu Giấy, ngoài ưu đãi 20% khách hàng sẽ được tặng ngay 01 bộ bát đĩa gốm sứ Minh Long cao cấp."
+      }
+    }
+  },
+  "wedding_service": {
+    "title": "Trung tâm tổ chức sự kiện Argon được thiết kế theo các phong cách: sang trọng, hiện đại, tinh tế kết hợp cùng với các không gian phòng tiệc, phòng hội nghị - hội thảo đa dạng, phục vụ từ 100 khách đến 1500 khách, phù hợp với nhiều loại sự kiện khác nhau, tiêu chuẩn đẳng cấp cùng chất lượng dịch vụ chuyên nghiệp.",
+    "number": "số lượng",
+    "people": "người",
+    "status": "tình trạng",
+    "free": "chưa có người đặt",
+    "booking": "đã có người đặt"
+  },
+  "about": {
+    "title": "About",
+    "introduction": "This page is made to give you more informations."
+  }
+}

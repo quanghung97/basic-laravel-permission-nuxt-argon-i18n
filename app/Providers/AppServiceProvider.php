@@ -7,7 +7,8 @@ use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
-    protected $repositories = ['User', 'Role', 'Permission', 'Location', 'TypeService', 'Status'];
+    protected $repositories = ['User', 'Role', 'Permission', 'Location',
+     'TypeService', 'Status', 'Dish', 'TypeDish', 'Menu', 'TypeMenu', ];
 
     /**
      * Bootstrap any application services.

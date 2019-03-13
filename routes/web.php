@@ -21,9 +21,12 @@ Route::group(['middleware' => ['role:admin', 'auth']], function () {
     Route::resource('admin/role', 'Admin\\RoleController');
     Route::resource('admin/user', 'Admin\\UserController');
     Route::resource('admin/location', 'Admin\\LocationController');
-});
-Route::get('admin', function () {
-    return view('admin.dashboard');
+    Route::resource('admin/dish', 'Admin\\DishController');
+    Route::resource('admin/menu', 'Admin\\MenuController');
+
+    Route::get('admin', function () {
+        return view('admin.dashboard');
+    });
 });
 // Route::resource('admin/permission', 'Admin\\PermissionController');
 // Route::resource('admin/role', 'Admin\\RoleController');

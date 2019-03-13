@@ -16,7 +16,6 @@ class CreateDishesTable extends Migration
             $table->string('name', 191);
             $table->integer('price');
             $table->string('link_image', 191)->nullable();
-            $table->string('uuid', 60);
             $table->timestamps();
             $table->integer('type_dish_id')->unsigned();
             $table->foreign('type_dish_id')

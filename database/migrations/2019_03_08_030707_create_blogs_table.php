@@ -15,7 +15,6 @@ class CreateBlogsTable extends Migration
             $table->increments('id');
             $table->string('name', 191);
             $table->longText('content');
-            $table->string('uuid', 60);
             $table->integer('user_id')->unsigned();
             $table->timestamps();
 

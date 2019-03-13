@@ -2,17 +2,19 @@
 
 namespace App\Models;
 
+use App\Traits\HasDishes;
 use Illuminate\Database\Eloquent\Model;
 
 class Menu extends Model
 {
+    use HasDishes;
     /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
     protected $fillable = [
-        'name',
+        'name', 'type_menu_id',
     ];
 
     /**

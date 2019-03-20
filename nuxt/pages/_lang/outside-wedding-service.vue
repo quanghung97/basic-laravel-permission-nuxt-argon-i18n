@@ -8,10 +8,7 @@
               <img src="/argon/img/brand/blue.png" style="width: 200px;" class="img-fluid">
               <p class="lead mt-4 mb-5">
                 <slot>
-                  Trung tâm tổ chức sự kiện Argon được thiết kế theo các phong cách:
-                  sang trọng, hiện đại, tinh tế kết hợp cùng với các không gian phòng tiệc, phòng hội nghị -
-                  hội thảo đa dạng, phục vụ từ 100 khách đến 1500 khách, phù hợp với nhiều loại sự kiện khác nhau,
-                  tiêu chuẩn đẳng cấp cùng chất lượng dịch vụ chuyên nghiệp.
+                  {{ $t('outside_wedding_service.title') }}
                 </slot>
               </p>
             </div>
@@ -22,24 +19,30 @@
 
     <section class="section section-components">
       <div class="container">
+        <div class="alert alert-primary mb-4" role="alert">
+          <strong>{{ $t('outside_wedding_service.list_title') }}:</strong>
+        </div>
         <div v-for="item in items" :key="item.id" class="row mb-5">
           <div class="col-md-12 mb-5 mb-md-0">
             <div class="card card-lift--hover shadow border-0">
               <nuxt-link to="/" title="Tiệc cỗ bắt mắt">
-                <img v-lazy="item.linkImage" class="card-img">
+                <img v-lazy="'https://firsttraining.test/'+item.link_image" class="card-img">
               </nuxt-link>
             </div>
             <div>
               <h1 class="text-center">{{ item.name }}</h1>
               <h2 class="text-center">{{ item.address }}</h2>
-              <h2 class="text-center">{{ item.range }}</h2>
+              <b class="">{{ $t('outside_wedding_service.number') }}: <span class="text-success">{{ item.min_people }} - {{ item.max_people }} </span> {{ $t('outside_wedding_service.people') }}</b>
+              <br/>
+              <b v-if="item.status.name === 'free'" class="">{{ $t('outside_wedding_service.status') }}: <span class="text-success"> {{ $t('outside_wedding_service.free') }} </span></b>
+              <b v-else class="">{{ $t('outside_wedding_service.status') }}: <span class="text-warning"> {{ $t('outside_wedding_service.booking') }} </span></b>
             </div>
           </div>
         </div>
         <nav aria-label="Page navigation example">
           <paginate
-            :page-count="20"
-            :click-handler="functionName"
+            :page-count="lastPage"
+            :click-handler="clickCallback"
             :prev-text="'prev'"
             :next-text="'next'"
             :container-class="'pagination justify-content-end'"
@@ -63,6 +66,8 @@ import Carousel from '~/components/argon-demo/Carousel'
 import Examples from '~/components/argon-demo/Examples'
 import DownloadSection from '~/components/argon-demo/DownloadSection'
 import Paginate from '~/components/argon-demo/Paginate'
+import axios from '~/plugins/axios'
+
 export default {
   name: 'wedding-service',
   layout: 'other',
@@ -75,39 +80,25 @@ export default {
   },
   data() {
     return {
-      items: [
-        {
-          linkImage: '/argon/img/theme/slider1.jpg',
-          name: 'name',
-          address: 'address',
-          range: 'range'
-        },
-        {
-          linkImage: '/argon/img/theme/slider1.jpg',
-          name: 'name',
-          address: 'address',
-          range: 'range'
-        },
-        {
-          linkImage: '/argon/img/theme/slider1.jpg',
-          name: 'name',
-          address: 'address',
-          range: 'range'
-        },
-        {
-          linkImage: '/argon/img/theme/slider1.jpg',
-          name: 'name',
-          address: 'address',
-          range: 'range'
-        }
-      ]
+      items: [],
+      lastPage: 0
     }
   },
   computed: {
   },
   watch: {
   },
+  created() {
+    this.clickCallback(1)
+  },
   methods: {
+    clickCallback(page) {
+			axios.get('outside-wedding?page=' + page)
+				.then(response => {
+          this.lastPage = response.data.result.last_page
+					this.items = response.data.result.data;
+				})
+		}
   }
 }
 </script>

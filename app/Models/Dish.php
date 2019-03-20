@@ -12,7 +12,10 @@ class Dish extends Model
      * @var array
      */
     protected $fillable = [
-        'name', 'price', 'link_image', 'type_dish_id',
+        'name',
+        'price',
+        'link_image',
+        'type_dish_id',
     ];
 
     /**

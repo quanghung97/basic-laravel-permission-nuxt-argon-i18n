@@ -23,7 +23,7 @@ Route::group(['middleware' => ['role:admin', 'auth']], function () {
     Route::resource('admin/location', 'Admin\\LocationController');
     Route::resource('admin/dish', 'Admin\\DishController');
     Route::resource('admin/menu', 'Admin\\MenuController');
-
+    Route::resource('admin/confirmation', 'Admin\\ConfirmationController');
     Route::get('admin', function () {
         return view('admin.dashboard');
     });

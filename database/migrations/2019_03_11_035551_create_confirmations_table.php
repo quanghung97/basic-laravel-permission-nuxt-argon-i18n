@@ -13,10 +13,10 @@ class CreateConfirmationsTable extends Migration
     {
         Schema::create('confirmations', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('location_id')->unsigned();
-            $table->integer('user_id')->unsigned();
-            $table->integer('order_id')->unsigned();
-            $table->integer('menu_id')->unsigned();
+            $table->integer('location_id')->unsigned()->nullable();
+            $table->integer('user_id')->unsigned()->nullable();
+            $table->integer('order_id')->unsigned()->nullable();
+            $table->integer('menu_id')->unsigned()->nullable();
             $table->timestamps();
 
             $table->foreign('location_id')

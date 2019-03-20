@@ -6,6 +6,22 @@
     <div class="Triangle Triangle--four"/>
   </div>
 </template>
+<script>
+export default{
+  name: 'order-nowsad',
+  data() {
+    return {
+      errors: [],
+      order: {
+        name: null,
+        address: null,
+        phone: null,
+        request: null
+      }
+    }
+  }
+}
+</script>
 
 <style>
 .VueToNuxtLogo {

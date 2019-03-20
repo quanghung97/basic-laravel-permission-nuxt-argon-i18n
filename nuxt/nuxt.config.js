@@ -59,11 +59,12 @@ module.exports = {
     */
     plugins: [
         '~/plugins/argon/argon-kit',
-        '~/plugins/i18n.js'
+        '~/plugins/i18n.js',
+        { src: '~/plugins/vue-notifications', ssr: false },
     ],
-    generate: {
-      routes: ['/', '/wedding-service', '/outside-wedding-service', '/en', '/en/wedding-service', '/en/outside-wedding-service']
-    },
+    // generate: {
+    //   routes: ['/', '/wedding-service', '/outside-wedding-service', 'order-now', '/en', '/en/wedding-service', '/en/outside-wedding-service', '/en/order-now']
+    // },
     /*
     ** Nuxt.js modules
     */
@@ -77,7 +78,7 @@ module.exports = {
                 css: false
             }
         ],
-        '@nuxtjs/pwa'
+        // '@nuxtjs/pwa'
     ],
     /*
     ** Axios module configuration

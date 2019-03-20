@@ -36,7 +36,9 @@
       "type": "Tin Tức"
     },
     "order_now": {
-      "type": "Đặt Tiệc Ngay"
+      "type": "Đặt Tiệc Ngay",
+      "title": "Thành Công",
+      "message": "Đặt Tiệc Thành Công"
     },
     "introduction": "This is an introduction in English."
   },
@@ -83,7 +85,85 @@
     "people": "người",
     "status": "tình trạng",
     "free": "chưa có người đặt",
-    "booking": "đã có người đặt"
+    "booking": "đã có người đặt",
+    "list_title": "Các địa điểm tổ chức tiệc cưới",
+    "type": "Địa điểm có thể có các loại dịch vụ: "
+  },
+  "outside_wedding_service": {
+    "title": "Tổ chức tiệc cưới trong không gian khoáng đạt, hòa cùng thiên nhiên đang dần trở thành một xu hướng thịnh hành của nhiều người trẻ năng động - những cặp đôi hiện đại mong muốn đám cưới trở thành một kỉ niệm không thể nào quên trong đời. Hàng loạt những tên tuổi đình đám trong showbiz Việt như ca sĩ Đan Trường, ca sĩ Phương Vy, siêu mẫu Hà Anh, hay gần đây nhất là cặp đôi Khởi My – Kelvin Khánh cũng đều lựa chọn hình thức này cho ngày trọng đại của đời mình. ",
+    "number": "số lượng",
+    "people": "người",
+    "status": "tình trạng",
+    "free": "chưa có người đặt",
+    "booking": "đã có người đặt",
+    "list_title": "Các địa điểm tổ chức tiệc cưới ngoài trời"
+  },
+  "friendship_workshop": {
+    "title": "Tại Argon, tất cả các sự kiện của mọi công ty và tổ chức sẽ được chuẩn bị thật chu đáo và trang trọng. Hiểu rõ nhu cầu khách hàng, chúng tôi chia sẻ mối quan tâm và đáp ứng mọi yêu cầu khắt khe nhất về chất lượng cũng như ý tưởng sáng tạo, độc đáo và đặc biệt đi kèm với mức chi phí hợp lý nhất. ",
+    "number": "số lượng",
+    "people": "người",
+    "status": "tình trạng",
+    "free": "chưa có người đặt",
+    "booking": "đã có người đặt",
+    "list_title": "Các địa điểm tổ chức Hội Thảo - Hữu Nghị"
+  },
+  "customer_gratitude": {
+    "title": "Chúng tôi tin rằng, hoạt động tổ chức tiệc, lễ tri ân cho quý khách hàng không chỉ thể hiện sự quan tâm sâu sắc cũng như thay lời cảm ơn của cán bộ cao cấp cơ quan nhà nước, các chủ doanh nghiệp tới quý khách hàng thân thiết, đối tác làm ăn lớn, các nhà cung cấp sản phẩm cho doanh nghiệp quý khách. Bên cạnh đó, đây cũng là dịp thể hiện bộ mặt của doanh nghiệp, tổ chức, chứng minh tầm vóc và vị thế của quý công ty.",
+    "number": "số lượng",
+    "people": "người",
+    "status": "tình trạng",
+    "free": "chưa có người đặt",
+    "booking": "đã có người đặt",
+    "list_title": "Các địa điểm tổ chức tri ân khách hàng"
+  },
+  "birthday": {
+    "title": "Ai cũng biết, sinh nhật là dịp thật quan trọng với mỗi người vì mỗi năm chỉ có một lần. Tổ chức một bữa tiệc ấm áp, vui vẻ bên người thân là mơ ước của rất nhiều người. Nhưng không phải ai cũng biết cách biến điều đó thành hiện thực.",
+    "number": "số lượng",
+    "people": "người",
+    "status": "tình trạng",
+    "free": "chưa có người đặt",
+    "booking": "đã có người đặt",
+    "list_title": "Các địa điểm tổ chức sinh nhật"
+  },
+  "music_fashion": {
+    "title": "Hàng loạt ca sĩ tên tuổi, người nổi tiếng đã chọn biểu diễn tại sân khấu của Trống Đồng như Uyên Linh, Trung Quân Idol, Ngọt Band… Để giúp khách hàng giảm bớt áp lực khi phải tổ chức biểu diễn nghệ thuật, Trống Đồng Palace – công ty tổ chức sự kiện hàng đầu nhận tổ chức các sự kiện ca nhạc, thời trang... Trống Đồng Palace luôn mang đến cho quý khách những kịch bản hấp dẫn với bố cục chặt chẽ, hệ thống thiết bị âm thanh, ánh sáng chất lượng, hiện đại, thiết kế sân khấu chuyên nghiệp, đội ngũ phục vụ sự kiện được đào tạo bài bản cùng các đạo diễn, biên đạo múa, người mẫu, ca sĩ, ngôi sao hàng đầu Việt Nam. Đặc biệt, sự linh động về quy mô tổ chức sự kiện chính là một ưu thế của Trống Đồng trong lĩnh vực vốn rất thu hút sự quan tâm của khán giả này.",
+    "number": "số lượng",
+    "people": "người",
+    "status": "tình trạng",
+    "free": "chưa có người đặt",
+    "booking": "đã có người đặt",
+    "list_title": "Các địa điểm tổ chức sự kiện ca nhạc - thời trang"
+  },
+  "outside_catering": {
+    "title": "Không chỉ cung cấp những dịch vụ tổ chức sự kiện tại hệ thống Argon, chúng tôi còn là đơn vị cung cấp dịch vụ tiệc và sự kiện tại các công ty, tập đoàn, nhà máy với số lượng hàng nghìn người. Phong cách làm việc chuyên nghiệp, tận tâm, chu đáo, Argon nhận được sự tin yêu của các đối tác như tập đoàn Vingroup, Nissan và các đối tác Nhật Bản như Denso, Nitori...  ",
+    "number": "số lượng",
+    "people": "người",
+    "status": "tình trạng",
+    "free": "chưa có người đặt",
+    "booking": "đã có người đặt",
+    "list_title": "Các địa điểm tổ chức OUTSIDE - CATERING"
+  },
+  "menu": {
+    "title": "Được thực hiện từ bàn tay những người đầu bếp tài hoa từng làm việc tại các nhà hàng 5 sao trên toàn thế giới, thực đơn của Argon vô cùng ngon miệng và nhiều món ăn tinh tế, với giá từ 250,000đ/khách cho đến 400,000đ/khách.",
+    "total_price": "Giá",
+    "meal": "suất"
+  },
+  "order_now": {
+    "title": "Chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất, vui lòng cung cấp thông tin dưới đây. Cảm ơn bạn rất nhiều!",
+    "name_placeholder": "Tên của bạn",
+    "address_placeholder": "Ví dụ Ngõ 20, Hồ Tùng Mậu, Cầu Giấy, Hà Nội",
+    "phone_placeholder": "Số điện thoại của bạn",
+    "name": "Họ và tên:",
+    "address": "Địa chỉ:",
+    "phone": "Số điện thoại:",
+    "requirement": "Thêm yêu cầu:",
+    "requirement_placeholder": "Bạn hãy viết rõ thêm yêu cầu cho chúng tôi để chúng tôi tư vấn dễ hơn",
+    "send": "Gửi",
+    "list_log": "Quý khách hàng có thể điền đầy đủ thông tin phía dưới:",
+    "log_title": "Có vấn đề",
+    "name_log": "Bạn chưa điền thông tin tên",
+    "address_log": "Bạn chưa điền địa chỉ",
+    "phone_log": "Bạn chưa điền số điện thoại"
   },
   "about": {
     "title": "About",

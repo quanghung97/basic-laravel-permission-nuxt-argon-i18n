@@ -19,6 +19,9 @@
 
     <section class="section section-components">
       <div class="container">
+        <div class="alert alert-primary mb-4" role="alert">
+          <strong>{{ $t('wedding_service.list_title') }}:</strong>
+        </div>
         <div v-for="item in items" :key="item.id" class="row mb-5">
           <div class="col-md-12 mb-5 mb-md-0">
             <div class="card card-lift--hover shadow border-0">
@@ -29,9 +32,20 @@
             <div>
               <h1 class="text-center">{{ item.name }}</h1>
               <h2 class="text-center">{{ item.address }}</h2>
-              <h2 class="text-center">{{ $t('wedding_service.number') }}: <span class="text-success">{{ item.min_people }} - {{ item.max_people }} </span> {{ $t('wedding_service.people') }}</h2>
-              <h2 v-if="item.status.name === 'free'" class="text-center">{{ $t('wedding_service.status') }}: <span class="text-success"> {{ $t('wedding_service.free') }} </span></h2>
-              <h2 v-else class="text-center">{{ $t('wedding_service.status') }}: <span class="text-warning"> {{ $t('wedding_service.booking') }} </span></h2>
+              <b class="">
+                {{ $t('wedding_service.type') }}
+                <br/>
+                <ul v-for="service in item.type_services" :key="service.id">
+                  <li>
+                    {{ service.name }}
+                  </li>
+                  <br/>
+                </ul>
+              </b>
+              <b class="">{{ $t('wedding_service.number') }}: <span class="text-success">{{ item.min_people }} - {{ item.max_people }} </span> {{ $t('wedding_service.people') }}</b>
+              <br/>
+              <b v-if="item.status.name === 'free'" class="">{{ $t('wedding_service.status') }}: <span class="text-success"> {{ $t('wedding_service.free') }} </span></b>
+              <b v-else class="">{{ $t('wedding_service.status') }}: <span class="text-warning"> {{ $t('wedding_service.booking') }} </span></b>
             </div>
           </div>
         </div>

@@ -74,7 +74,7 @@
             <div class="dropdown-menu-xl">
               <div class="dropdown-menu-inner">
                 <nuxt-link
-                  to="/abc"
+                  :to="$i18n.path('friendship-workshop')"
                   class="media d-flex align-items-center"
                 >
                   <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
@@ -88,7 +88,7 @@
                   </div>
                 </nuxt-link>
                 <nuxt-link
-                  to="/abc"
+                  :to="$i18n.path('customer-gratitude')"
                   class="media d-flex align-items-center"
                 >
                   <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
@@ -102,7 +102,7 @@
                   </div>
                 </nuxt-link>
                 <nuxt-link
-                  to="/abc"
+                  :to="$i18n.path('birthday')"
                   class="media d-flex align-items-center"
                 >
                   <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
@@ -116,7 +116,7 @@
                   </div>
                 </nuxt-link>
                 <nuxt-link
-                  to="/abc"
+                  :to="$i18n.path('music-fashion')"
                   class="media d-flex align-items-center"
                 >
                   <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
@@ -130,7 +130,7 @@
                   </div>
                 </nuxt-link>
                 <nuxt-link
-                  to="/abc"
+                  :to="$i18n.path('outside-catering')"
                   class="media d-flex align-items-center"
                 >
                   <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
@@ -155,8 +155,8 @@
             </nuxt-link>
           </li>
           <li class="nav-item">
-            <nuxt-link role="button"
-                       to="/abc"
+            <nuxt-link :to="$i18n.path('menu')"
+                       role="button"
                        class="nav-link">
               <i class="fa fa-list d-lg-none"></i>
               <span class="nav-link-inner--text">{{ $t('navbar.menu.type') }}</span>
@@ -210,8 +210,7 @@
           </li>
           <li class="nav-item d-none d-lg-block ml-lg-1">
             <nuxt-link
-              to="/abc"
-              target="_blank"
+              :to="$i18n.path('order-now')"
               class="btn btn-neutral btn-icon"
             >
               <span class="btn-inner--icon">

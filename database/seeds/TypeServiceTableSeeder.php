@@ -14,9 +14,9 @@ class TypeServiceTableSeeder extends Seeder
             ['name' => 'Sinh nhật'],
             ['name' => 'Ca nhạc - Thời trang'],
             ['name' => 'Tri ân khách hàng'],
-            ['name' => 'Sinh nhật'],
             ['name' => 'Hội thảo - hữu nghị'],
             ['name' => 'OUTSIDE - CATERING'],
+            ['name' => 'Đám cưới ngoài trời'],
         ]);
     }
 }

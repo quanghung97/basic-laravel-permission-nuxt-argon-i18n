@@ -48,7 +48,7 @@ class PermissionController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-          'name' => 'required',
+            'name' => 'required',
         ]);
         $requestData = $request->all();
 
@@ -96,7 +96,7 @@ class PermissionController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-          'name' => 'required',
+            'name' => 'required',
         ]);
         $requestData = $request->all();
 

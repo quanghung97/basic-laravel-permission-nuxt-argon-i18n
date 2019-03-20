@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers\Admin;
 
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Repositories\Facades\RoleRepository;
 use App\Repositories\Facades\UserRepository;
+use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
@@ -51,10 +51,10 @@ class UserController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-          'name' => 'required',
-          'password' => 'required|min:6',
-          'roles' => 'required',
-          'email' => 'required|email',
+            'name' => 'required',
+            'password' => 'required|min:6',
+            'roles' => 'required',
+            'email' => 'required|email',
         ]);
         $requestData = $request->except('roles');
         $roles = $request->roles;
@@ -108,9 +108,9 @@ class UserController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-          'name' => 'required',
-          'email' => 'required|email',
-          'roles' => 'required',
+            'name' => 'required',
+            'email' => 'required|email',
+            'roles' => 'required',
         ]);
         $requestData = $request->except('roles');
 

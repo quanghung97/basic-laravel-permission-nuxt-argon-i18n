@@ -22,7 +22,7 @@ trait HasDishes
             })
             ->all();
 
-        $this->typeServices()->saveMany($dishes);
+        $this->dishes()->saveMany($dishes);
 
         return $this;
     }

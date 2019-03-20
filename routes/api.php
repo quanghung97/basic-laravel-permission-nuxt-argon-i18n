@@ -22,3 +22,11 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 // });
 
 Route::get('locations', 'Api\LocationController@index');
+Route::get('outside-wedding', 'Api\LocationController@outsideWedding');
+Route::get('friendship-workshop', 'Api\LocationController@friendshipWorkshop');
+Route::get('customer-gratitude', 'Api\LocationController@customerGratitude');
+Route::get('birthday', 'Api\LocationController@birthday');
+Route::get('music-fashion', 'Api\LocationController@musicFashion');
+Route::get('outside-catering', 'Api\LocationController@outsideCatering');
+Route::get('menu', 'Api\MenuController@index');
+Route::post('order', 'Api\OrderController@index');

@@ -36,7 +36,9 @@
       "type": "News"
     },
     "order_now": {
-      "type": "Order Now"
+      "type": "Order Now",
+      "title": "Success",
+      "message": "Book a successful party"
     },
     "introduction": "This is an introduction in English."
   },
@@ -83,7 +85,85 @@
     "people": "people",
     "status": "status",
     "free": "not yet booked",
-    "booking": "booking"
+    "booking": "booking",
+    "list_title": "Wedding venues",
+    "type": "Address can serve:"
+  },
+  "outside_wedding_service": {
+    "title": "Organization of weddings in a spacious space, blending with nature is gradually becoming a popular trend of many dynamic young people - modern couples wish the wedding becomes an unforgettable memory in life. . A series of popular names in Vietnamese showbiz such as singer Dan Truong, singer Phuong Vy, supermodel Ha Anh, or most recently, Khoi My couple - Kelvin Khanh also choose this form for the big day of my life.",
+    "number": "number",
+    "people": "people",
+    "status": "status",
+    "free": "not yet booked",
+    "booking": "booking",
+    "list_title": "Outdoor wedding venues"
+  },
+  "friendship_workshop": {
+    "title": "At Argon, all events of every company and organization will be well prepared and formal. Understanding customer needs, we share our concerns and meet the most stringent requirements for quality as well as creative, unique and special ideas with the most affordable cost.",
+    "number": "number",
+    "people": "people",
+    "status": "status",
+    "free": "not yet booked",
+    "booking": "booking",
+    "list_title": "Locations for friendship-workshop"
+  },
+  "customer_gratitude": {
+    "title": "We believe that the party organization, gratitude ceremony for customers not only shows the deep concern as well as thanks to the senior officials of state agencies, business owners to you. dear customers, big business partners, product suppliers for your business. Besides, this is also an opportunity to show the face of businesses and organizations, demonstrate the stature and position of your company.",
+    "number": "number",
+    "people": "people",
+    "status": "status",
+    "free": "not yet booked",
+    "booking": "booking",
+    "list_title": "Customer appreciation organization locations"
+  },
+  "birthday": {
+    "title": "Everyone knows, birthdays are an important occasion for every person because only once a year. Holding a warm, happy party with relatives is a dream of many people. But not Everyone knows how to make that happen.",
+    "number": "number",
+    "people": "people",
+    "status": "status",
+    "free": "not yet booked",
+    "booking": "booking",
+    "list_title": "Locations for birthday"
+  },
+  "music_fashion": {
+    "title": "A lot of famous singers and celebrities have chosen to perform at the stage of the Bronze Drum such as Uyen Linh, Trung Quan Idol, Ngot Band ... To help customers reduce the pressure of having to perform art performances, Bronze Drum Palace - the leading event organization that organizes music and fashion events ... Dong Palace Drum always gives you attractive scenarios with tight layout, sound equipment system , quality lighting, modern, professional stage design, well-trained event team with top directors, choreographers, models, singers, stars. In particular, the flexibility of the event size is an advantage of the Bronze Drum in the field which has attracted the attention of this audience.",
+    "number": "number",
+    "people": "people",
+    "status": "status",
+    "free": "not yet booked",
+    "booking": "booking",
+    "list_title": "Locations for music event and fashion"
+  },
+  "outside_catering": {
+    "title": "Not only providing event organizing services at Argon system, we also provide party and event services at companies, corporations and factories with thousands of people. Professional, dedicated and thoughtful working style, Argon received the trust of partners like Vingroup, Nissan and Japanese partners such as Denso, Nitori ...",
+    "number": "number",
+    "people": "people",
+    "status": "status",
+    "free": "not yet booked",
+    "booking": "booking",
+    "list_title": "Locations for outside - catering"
+  },
+  "menu": {
+    "title": "Made from the hands of talented chefs who have worked at 5-star restaurants around the world, Argon's menu is extremely delicious and has many exquisite dishes, priced from 250,000 VND / person until VND 400,000 / person.",
+    "total_price": "Total price",
+    "meal": "meal"
+  },
+  "order_now": {
+    "title": "We will contact you as soon as possible, please provide the information below. Thank you very much!",
+    "name_placeholder": "Your Name",
+    "address_placeholder": "Example 155 Jefferson St, Passaic, NJ 07055, USA",
+    "phone_placeholder": "Your Number Phone",
+    "name": "Full name: ",
+    "address": "Address: ",
+    "phone": "Phone number: ",
+    "requirement": "More Requirements: ",
+    "requirement_placeholder": "Please write more requests for us to make our advice easier",
+    "send": "Send",
+    "list_log": "Please correct the following error(s):",
+    "log_title": "Some things wrong",
+    "name_log": "You have not entered the name information",
+    "address_log": "You have not entered the address",
+    "phone_log": "You have not entered the phone"
   },
   "about": {
     "title": "About",
